@@ -72,6 +72,13 @@ span {
     display: block;
 }
 
+.conteudo-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #a5a1a16e;
+}
+
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -81,10 +88,20 @@ span {
     border-bottom: 1px solid #a5a1a16e;
 }
 
-.new-desktop{
+.new-input{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    width: 100%;
+    column-gap: 0.5rem;
+}
+
+.new-input input {
+    flex-grow: 10;
+}
+
+.new-input button {
+    flex-grow: 1;
 }
 
 .newsletter input{
@@ -127,11 +144,6 @@ span {
     height: 100%;
 }
 
-/*.redes-sociais li img{
-    width: 100%;
-    height: 100%;
-}*/
-
 .pagamentos{
     display: flex;
     column-gap: 0.5rem;
@@ -141,29 +153,4 @@ span {
     list-style-type: none;
     width: 100%;
     height: 100%;
-}
-
-/*.pagamentos li img{
-    width: auto;
-    height: 100%;
-}*/
-.conteudo-footer{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #a5a1a16e;
-}
-
-.new-desktop{
-    display: flex;
-    width: 100%;
-    column-gap: 0.5rem;
-}
-
-.new-desktop input {
-    flex-grow: 10;
-}
-
-.new-desktop button {
-    flex-grow: 1;
 }
