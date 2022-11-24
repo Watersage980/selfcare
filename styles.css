@@ -1,0 +1,15 @@
+#header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    column-gap: 1.562rem;
+}
+
+.navbar li{
+    display: block;
+    width: 1rem;
+}
